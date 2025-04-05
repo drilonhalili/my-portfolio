@@ -132,7 +132,7 @@ export const Experience = () => {
                     role={j.role}
                     link={j.link}
                     images={j.images}
-                    duration={j.duration}
+                    duration={formatDateRange(j.dateStart, j.dateEnd)}
                   />
                 </li>
               ))}
