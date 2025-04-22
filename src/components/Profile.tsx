@@ -69,7 +69,7 @@ export const Profile = () => {
                 target="_blank"
                 className="font-semibold uppercase"
               >
-                CONTACT ME
+                Download Resume
               </Link>
             </Button>
             <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">

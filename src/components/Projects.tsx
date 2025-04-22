@@ -5,6 +5,14 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
   {
+    title: "Expenses tracker",
+    description:
+      "A full-stack web app tutorial using Vite, React, Bun, Hono, Drizzle, Kinde, and TanStack, built step by step.",
+    tech: "Vite",
+    url: "https://coonwerks.com/",
+    githubUrl: "https://github.com/drilonhalili/businesshealth"
+  },
+  {
     title: "Business Health",
     description:
       "Developed a responsive and user-friendly business health landing page using Next.js and React.",
@@ -25,7 +33,8 @@ export const projects = [
 const techColors = {
   React: "bg-blue-500",
   "Vue.js": "bg-purple-500",
-  "Next.js": "bg-yellow-500"
+  "Next.js": "bg-yellow-500",
+  "Vite": "bg-red-500"
 }
 
 export const Projects = () => {

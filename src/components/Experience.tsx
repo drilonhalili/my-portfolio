@@ -14,7 +14,7 @@ const jobs = [
     description:
       "Working as a React and Angular Developer for a project that provides alumni management software.",
     link: "https://enterprisealumni.com",
-    images: []
+    images: ["/enterprisealumni.png"]
   },
   {
     role: "Freelance Software Engineer",
